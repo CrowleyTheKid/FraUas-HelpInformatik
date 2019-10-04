@@ -1,4 +1,5 @@
 @extends('layout')
 @section('content')
-    <h1>Analysis</h1>
+    <h1>{{$title}}</h1>
 @endsection
+

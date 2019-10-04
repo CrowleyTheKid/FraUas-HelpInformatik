@@ -11,22 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('pages.home');
-});
+Route::get('/', 'PagesController@home');
 
+Route::get('/{page}', ['uses' => 'PagesController@page'])
+    ->where('page', '[A-Za-z]+');
 
-Route::get('/analysis', function () {
-    return view('pages.analysis');
-});
-
-Route::get('/algdat', function () {
-    return view('pages.algdat');
-});
-
-Route::get('/c', function () {
-    return view('pages.c');
-});
-Route::get('/rechnerarchitektur', function () {
-    return view('pages.ra');
-});

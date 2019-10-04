@@ -3,7 +3,7 @@
     <section>
         <div class="home-container">
             <div class="item">
-                <h1>Fra Uas HelpInformatik</h1>
+                <h1>{{$title}}</h1>
                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
                     labore et dolore magna</p>
             </div>
