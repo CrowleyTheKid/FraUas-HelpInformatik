@@ -12,5 +12,21 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('pages.home');
+});
+
+
+Route::get('/analysis', function () {
+    return view('pages.analysis');
+});
+
+Route::get('/algdat', function () {
+    return view('pages.algdat');
+});
+
+Route::get('/c', function () {
+    return view('pages.c');
+});
+Route::get('/rechnerarchitektur', function () {
+    return view('pages.ra');
 });
