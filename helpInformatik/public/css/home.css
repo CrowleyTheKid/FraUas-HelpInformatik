@@ -16,6 +16,7 @@ section .home-container .item{
 section .home-container .cards{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 section .home-container .cards .card{
