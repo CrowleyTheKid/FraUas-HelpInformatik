@@ -14,5 +14,7 @@
 Route::get('/', 'PagesController@home')->name('home');
 
 Route::get('/{page}', ['uses' => 'PagesController@page'])
+    ->name('page')
     ->where('page', '[A-Za-z]+');
+
 
