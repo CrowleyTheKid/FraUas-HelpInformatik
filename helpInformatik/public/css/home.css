@@ -1,19 +1,27 @@
 section .home-container{
-    background-color: khaki;
+
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-
     align-items: center;
 }
 section .home-container .item{
-    background-color: pink;
+    width: 60%;
     margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+section .home-container .item img{
+    width: 20rem;
 }
 
 section .home-container .cards{
+    background-color: #48B287;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -23,3 +31,19 @@ section .home-container .cards .card{
     margin: 20px;
     width: 18rem;
 }
+section .home-container .cards .card img{
+    
+}
+.masthead-heading {
+    font-size: 2.75rem;
+    line-height: 2.75rem;
+}
+
+.masthead-subheading {
+    font-size: 1.25rem;
+}
+
+
+
+
+

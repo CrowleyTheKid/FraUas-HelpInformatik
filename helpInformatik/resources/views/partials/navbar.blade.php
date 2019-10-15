@@ -1,6 +1,6 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light">
     <a class="navbar-brand" href="/">
-        <img src="{{asset('img/logo.png')}}" width="100" height="80" alt="logo">
+        <img src="{{asset('img/logo_klein.png')}}" width="100" height="80" alt="logo">
     </a>
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">

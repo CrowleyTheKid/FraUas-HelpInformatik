@@ -7,6 +7,7 @@
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link type="text/css" rel="stylesheet" href="{{asset('css/footer.css')}}">
     <link type="text/css" rel="stylesheet" href="{{asset('css/home.css')}}">
+    <link type="text/css" rel="stylesheet" href="{{asset('css/page.css')}}">
     <title>Fra Uas HelperInformatik</title>
 </head>
 <body>

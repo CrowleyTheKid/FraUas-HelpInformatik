@@ -1,0 +1,10 @@
+.page-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #48B287;
+
+    height: 400px;
+}
